@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-09",
+    "expires_after": "2027-03-31",
+    "coverage": "省级窗口为部分收录（持续补充中，缺省省份走 find-info.md 检索省级人大决定）；县级为已核实采样，未收录不代表该县未发布",
+    "disclaimer": "所有日期以当地选举委员会公告为最终依据；选举日可能被调整（实例：隆回 8-19 调整为 8-21、天全 10-19 推迟至 10-30）",
+    "entry_fields": "county/province=行政区；election_day=选举日；registration=选民登记期；source=来源；source_type=official(官网原文)/repost(媒体转载官方发布)"
+  },
+  "provinces": [
+    { "province": "北京", "window": "统一选举日 2026-11-06；新一届区人大一次会议拟 2026-12 底前召开", "source": "http://www.bjchy.gov.cn/dynamic/jxdt/4028805aa060632401a08e05efa7301d.html", "source_type": "official", "fetched_at": "2026-10-09" },
+    { "province": "上海", "window": "各区统一选举日 2026-11-16", "source": "https://www.songjiang.gov.cn/xwzx/001001/20260901/420119ab-cb7f-466f-8921-aeaddf23aad9.html", "source_type": "official", "fetched_at": "2026-10-09" },
+    { "province": "云南", "window": "2026-07-01 启动，2026-12-31 前选出代表，代表选出后 2 个月内召开新一届人大一次会议", "source": "https://www.ynrd.gov.cn/html/2026/meitijujiu_0701/4046451.html", "source_type": "official", "fetched_at": "2026-10-09" },
+    { "province": "四川", "window": "2026-06-01 至 2027-01-31 期间进行", "source": "https://www.scspc.gov.cn/jyjd/202604/152660.html", "source_type": "official", "fetched_at": "2026-10-09" },
+    { "province": "浙江", "window": "2026-08-01 至 2027-03-31 期间进行", "source": "https://zjnews.zjol.com.cn/zjnews/202605/t20260529_31690569.shtml", "source_type": "repost", "fetched_at": "2026-10-09" },
+    { "province": "江苏", "window": "2026-12 底前选出县乡两级代表，2027-01 底前召开新一届人大一次会议；涉及 13 设区市、95 县（市、区）、718 乡镇", "source": "https://www.jsxc.gov.cn/szyw/202610/t20261002_96635.shtml", "source_type": "official", "fetched_at": "2026-10-09" },
+    { "province": "湖北", "window": "全省 2026-12 前完成（据人大栏目转载，待补省级决定原文链接）", "source": "https://www.sohu.com/a/1031411641_121106908", "source_type": "repost", "fetched_at": "2026-10-09" }
+  ],
+  "counties": [
+    { "county": "北京市（16 区统一）", "province": "北京", "election_day": "2026-11-06", "registration": "以各区公告为准；通州区 2026-07-06 至 2026-09-22", "source": "http://www.bjchy.gov.cn/dynamic/jxdt/4028805aa060632401a08e05efa7301d.html", "source_type": "official", "fetched_at": "2026-10-09" },
+    { "county": "上海市松江区（含镇）", "province": "上海", "election_day": "2026-11-16", "registration": "以区选举委员会公告为准", "source": "https://www.songjiang.gov.cn/xwzx/001001/20260901/420119ab-cb7f-466f-8921-aeaddf23aad9.html", "source_type": "official", "fetched_at": "2026-10-09" },
+    { "county": "上海市青浦区（含镇）", "province": "上海", "election_day": "2026-11-16", "registration": "11-16 至 11-18 同步选出（区人大公告）", "source": "http://pcg.shqp.gov.cn/pcg/jdjyn/20260730/1377963.html", "source_type": "official", "fetched_at": "2026-10-09" },
+    { "county": "海南省陵水黎族自治县", "province": "海南", "election_day": "2026-11-12", "registration": "以县选举委员会公告为准", "source": "https://lingshui.hainan.gov.cn/ywdt_57509/lsyw_57704/202608/t20260813_4127343.html", "source_type": "official", "fetched_at": "2026-10-09" },
+    { "county": "湖南省隆回县", "province": "湖南", "election_day": "2026-08-21", "registration": "已结束（选民名单 8-01 公布，初步候选人 8-06，正式候选人 8-14）", "source": "http://rd.longhui.gov.cn/lhxrdw/tzgg/202607/e91a11b396c4451091ef3e677c800e71.shtml", "source_type": "official", "fetched_at": "2026-10-09" },
+    { "county": "湖南省桃江县", "province": "湖南", "election_day": "2026-08-20 至 2026-08-22", "registration": "以县选举委员会公告为准", "source": "https://www.taojiang.gov.cn/24397/24410/content_2182046.html", "source_type": "official", "fetched_at": "2026-10-09" },
+    { "county": "四川省天全县", "province": "四川", "election_day": "2026-10-30", "registration": "原定 10-19，9-29 公告推迟至 10-30", "source": "https://cbgc.scol.com.cn/news/8012946", "source_type": "repost", "fetched_at": "2026-10-09" },
+    { "county": "云南省维西傈僳族自治县", "province": "云南", "election_day": "2026-12-21", "registration": "2026-10-01 至 2026-11-20（县选举委员会第 2 号公告，官方发布经媒体转载）", "source": "https://m.sohu.com/a/1082726859_122014422", "source_type": "repost", "fetched_at": "2026-10-09" },
+    { "county": "云南省镇沅彝族哈尼族拉祜族自治县", "province": "云南", "election_day": "2026-12-23", "registration": "以县选举委员会公告为准（媒体转载）", "source": "https://feng.ifeng.com/c/8wol0tTGsAL", "source_type": "repost", "fetched_at": "2026-10-09" },
+    { "county": "内蒙古自治区正镶白旗", "province": "内蒙古", "election_day": null, "registration": "旗选举委员会第 3 号《选民登记办法》2026-09-24 通过；选举日以旗公告为准", "source": "https://www.zxbq.gov.cn/zxbq/zwgk/zfxxgk/fdzdgknr/tzgg/2026092810370959179/index.html", "source_type": "official", "fetched_at": "2026-10-09" }
+  ]
+}

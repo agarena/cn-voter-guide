@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "updated_at": "2026-10-09",
+    "usage": "scripts/fetch_election_dates.py 的采集白名单。只收录公开公告列表页/专题页。新增站点时先人工核实可访问与栏目正确性。",
+    "politeness": "限速 1 请求/秒；遵守 robots 协议（robots.txt 自身 403 按 RFC 9309 视为全部禁止）；只抓列表页，不抓动态接口",
+    "tested_2026_10_09": "实测环境（本机宽带）下：川观可达；江苏 502（疑似瞬时/拦脚本）；桃江、松江 robots 拒绝；隆回、维西、天全类站点 403 拦脚本客户端。政府站对脚本访问限制参差，换网络环境（如云服务器）重试或浏览器人工查，勿提高频率硬闯"
+  },
+  "sources": [
+    { "name": "江苏人大网·县乡人大换届选举专题", "url": "https://www.jsrd.gov.cn/zt/d_xxrdhjxj", "level": "province", "note": "官方聚合本省县级动态：要闻/媒体聚焦/人大知识；实测 502，浏览器可开" },
+    { "name": "云南人大网·县乡人大换届选举专题", "url": "https://www.ynrd.gov.cn/html/ztkj/yunnsxxrdhjxj", "level": "province", "note": "各州市培训/部署动态" },
+    { "name": "四川人大网·决议决定", "url": "https://www.scspc.gov.cn/jyjd/", "level": "province", "note": "省级换届时间决定所在栏目" },
+    { "name": "湖南人大网·代表工作/选举任免", "url": "https://www.hnrd.gov.cn/zz/dbgz/", "level": "province", "note": "无专题，散见栏目；站点响应慢（实测约 6.5 秒）" },
+    { "name": "北京市人大网·人大工作研究", "url": "https://www.bjrd.gov.cn/xwzx/rdgzyj/", "level": "province", "note": "含换届详解类文章" },
+    { "name": "隆回县人大网·通知公告", "url": "http://rd.longhui.gov.cn/lhxrdw/tzgg/", "level": "county", "note": "全链条最完整范本；GBK 编码；实测 403 拦脚本客户端，浏览器可开" },
+    { "name": "桃江县政府网·通知公告", "url": "https://www.taojiang.gov.cn/24397/24410/", "level": "county", "note": "meta 规范（ContentSource 标注选举委员会）；robots.txt 403，脚本禁抓" },
+    { "name": "通州区人大子站", "url": "https://renda.bjtzh.gov.cn/bjtzhrd/rdyw/", "level": "county", "note": "北京区级选民登记公告实例" },
+    { "name": "松江区政府网·新闻/公告", "url": "https://www.songjiang.gov.cn/xwzx/001001/", "level": "county", "note": "区选举委员会公告；robots 拒绝脚本，浏览器可开" },
+    { "name": "正镶白旗政府网·通知公告", "url": "https://www.zxbq.gov.cn/zxbq/zwgk/zfxxgk/fdzdgknr/tzgg/", "level": "county", "note": "少数民族地区旗/苏木镇体系" },
+    { "name": "维西县政府网·通知公告", "url": "https://www.weixi.gov.cn/zwgk/tzgg/", "level": "county", "note": "警示样本：选举公告不上官网、走公众号，需媒体转载补" },
+    { "name": "天全县政府网·公示公告", "url": "http://www.tqx.gov.cn/gongkai/", "level": "county", "note": "警示样本：官网断档，靠川观新闻等省级媒体补" },
+    { "name": "川观新闻（四川日报客户端）", "url": "https://cbgc.scol.com.cn/", "level": "media", "note": "四川县级公告主要转载源；当前为首页，线索少，维护时应定位到搜索/栏目页后更新本 URL" }
+  ]
+}
