@@ -18,7 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "election_dates.json"
-UA = "cn-voter-guide-maintainer/1.0 (+https://github.com/aipanini/cn-voter-guide)"
+UA = "cn-voter-guide-maintainer/1.0 (+https://github.com/agarena/cn-voter-guide)"
 DATE_RE = re.compile(r"^20\d{2}-(0?[1-9]|1[0-2])-(0?[1-9]|[12]\d|3[01])$")
 URL_RE = re.compile(r"^https?://\S+$")
 REQUIRED_META = ("fetched_at", "expires_after", "coverage", "disclaimer")

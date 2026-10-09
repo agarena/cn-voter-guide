@@ -20,7 +20,7 @@
 
 **口播**：「安装只需要复制一句话。打开你的 AI 智能体，把这句话原样发给它——」（屏幕大字出现安装指令）
 
-> 帮我安装 cn-voter-guide 这个 skill：把 https://github.com/aipanini/cn-voter-guide 克隆到我的智能体技能目录里。
+> 帮我安装 cn-voter-guide 这个 skill：把 https://github.com/agarena/cn-voter-guide 克隆到我的智能体技能目录里。
 
 **口播**：「它会自己完成克隆和放置。用不了 AI 代装的，视频简介里有 git 命令和下载 zip 两条手动路。装完零配置，直接开问。」
 
@@ -51,8 +51,8 @@
 ## 简介文案模板
 
 > 一个让 AI 照法条回答选举参与问题的 skill：资格自查、投票方式、时间查询、异议渠道，每句带出处。装法：把下面这句话发给你的 AI——
-> 「帮我安装 cn-voter-guide 这个 skill：把 https://github.com/aipanini/cn-voter-guide 克隆到我的智能体技能目录里。」
-> 仓库：github.com/aipanini/cn-voter-guide（MIT 开源）
+> 「帮我安装 cn-voter-guide 这个 skill：把 https://github.com/agarena/cn-voter-guide 克隆到我的智能体技能目录里。」
+> 仓库：github.com/agarena/cn-voter-guide（MIT 开源）
 
 ## 标签建议
 

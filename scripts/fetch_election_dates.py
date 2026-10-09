@@ -30,7 +30,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SOURCES_FILE = ROOT / "data" / "sources.json"
 FINDINGS_DIR = ROOT / "data" / "findings"
 
-UA = "cn-voter-guide-maintainer/1.0 (+https://github.com/aipanini/cn-voter-guide; polite, 1req/s)"
+UA = "cn-voter-guide-maintainer/1.0 (+https://github.com/agarena/cn-voter-guide; polite, 1req/s)"
 KEYWORDS = ("选举日", "选举委员会公告", "选民登记", "当选", "代表资格", "候选人名单", "换届")
 DATE_RE = re.compile(r"20\d{2}\s*[-/年.]\s*\d{1,2}\s*[-/月.]\s*\d{1,2}\s*日?")
 REQUEST_INTERVAL = 1.0  # 秒

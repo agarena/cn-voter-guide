@@ -9,7 +9,7 @@
 **最省事的装法**——把下面这句话原样发给你正在用的 AI 智能体（ZCode、Claude Code 等任何支持技能目录的智能体都行）：
 
 ```
-帮我安装 cn-voter-guide 这个 skill：把 https://github.com/aipanini/cn-voter-guide 克隆到我的智能体技能目录里（技能目录在哪看你的文档；找不到就先问我在用哪个智能体，再从 GitHub 仓库 README 找对应位置）。
+帮我安装 cn-voter-guide 这个 skill：把 https://github.com/agarena/cn-voter-guide 克隆到我的智能体技能目录里（技能目录在哪看你的文档；找不到就先问我在用哪个智能体，再从 GitHub 仓库 README 找对应位置）。
 ```
 
 它会替你完成克隆和放置。装完直接问它选举问题就行。
@@ -18,7 +18,7 @@
 
 ```bash
 # 方式一：git 克隆（把 <技能目录> 换成你的智能体的技能目录）
-git clone https://github.com/aipanini/cn-voter-guide "<技能目录>/cn-voter-guide"
+git clone https://github.com/agarena/cn-voter-guide "<技能目录>/cn-voter-guide"
 ```
 
 常见智能体的技能目录位置：ZCode / 通用 `~/.agents/skills/`，Claude Code `~/.claude/skills/`，Codex `~/.codex/skills/`（以你所用智能体的文档为准）。
